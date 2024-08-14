@@ -10,7 +10,8 @@ api_key = os.getenv("API_KEY")
 
 #Enter path of all the images to be predicted in the img list, separated by commas(,)
 #MAKE SURE TO REPLACE ALL '/' WITH '\' OR '\\'
-img = ["C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113332.png","C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113327.png"]
+# EXAMPLE - img = ["C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113332.png","C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113327.png"]
+img=[]
 l=len(img)
 
 for i in range(0,l):
