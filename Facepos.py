@@ -9,6 +9,7 @@ endpoint_id = os.getenv("ENDPOINT_ID")
 api_key = os.getenv("API_KEY")
 
 #Enter path of all the images to be predicted in the img list, separated by commas(,)
+#MAKE SURE TO REPLACE ALL '/' WITH '\' OR '\\'
 img = ["C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113332.png","C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113327.png"]
 l=len(img)
 
