@@ -1,13 +1,15 @@
 from PIL import Image
 from landingai.predict import Predictor
-import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
-endpoint_id = "c7cb31bf-7dee-4c38-bbdf-22633f49f2b0"
-api_key = "land_sk_dRxZP2L2PuiyGdYSZpsKKOSc1NKpfGWsj5jOW47k1oPeKK4vf3"
+endpoint_id = os.getenv("ENDPOINT_ID")
+api_key = os.getenv("API_KEY")
 
 #Enter path of all the images to be predicted in the img list, separated by commas(,)
-img = []
+img = ["C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113332.png","C:/Users/devan/Pictures/Screenshots/Screenshot 2024-08-14 113327.png"]
 l=len(img)
 
 for i in range(0,l):
